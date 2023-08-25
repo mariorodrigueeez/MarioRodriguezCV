@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from './views/Navbar/navbar'
 
 function ErrorPage() {
   return (
-    <div>ErrorPage</div>
+    <div>
+      <Navbar />
+
+      ErrorPage</div>
   )
 }
 
