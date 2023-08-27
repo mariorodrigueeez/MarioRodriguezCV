@@ -13,3 +13,26 @@ Fondo: #E8E5E4
 Marron pastel: #ab9680
 
 */
+
+.c_marron_pastel {
+  background-color: #ab9680;
+}
+
+.c3_hover:hover {
+  background-color: #4f4234;
+}
+
+.c3 {
+  background-color: #4f4234;
+}
+
+.botonS1 {
+  background-color: #4f4234;
+  color: white;
+}
+
+.botonS1:hover {
+  transition: 0.1s;
+  transform: scale(1.1);
+  background-color: #40352a;
+}
