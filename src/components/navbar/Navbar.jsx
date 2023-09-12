@@ -2,7 +2,7 @@ import React from 'react';
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
-import LogoCV3 from '../../assets/LogoCV3.png';
+import LogoCV3 from '../../assets/LogoCV3Mejora2.png';
 import pdf from '../../assets/files/CVMarioRodriguez.pdf'
 
 const navigation = [
@@ -22,7 +22,7 @@ export default function Navbar() {
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white c3_hover focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -71,7 +71,7 @@ export default function Navbar() {
                 <Link
                   key={item.name}
                   to={item.to}
-                  className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-gray-700"
+                  className="block rounded-md px-3 py-2 text-base font-medium text-white c3_hover"
                 >
                   {item.name}
                 </Link>
