@@ -8,8 +8,12 @@ import {
 import Root from './routes/root';
 
 import './index.css';
-import Home from './views/home/Home'
-import ErrorPage from './ErrorPage';
+import { Home } from './views/home/Home'
+import { Experience } from './views/experience/Experience'
+import { Contact } from './views/contact/Contact'
+import { Projects } from './views/projects/Projects'
+import { Skills } from './views/skills/Skills'
+import { ErrorPage } from './ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +28,22 @@ const router = createBrowserRouter([
       {
         path: 'home',
         element: <Home />,
+      },
+      {
+        path: 'experience',
+        element: <Experience />,
+      },
+      {
+        path: 'contact',
+        element: <Contact />,
+      },
+      {
+        path: 'projects',
+        element: <Projects />,
+      },
+      {
+        path: 'skills',
+        element: <Skills />,
       },
     ],
   },

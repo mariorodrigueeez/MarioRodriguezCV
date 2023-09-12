@@ -1,13 +1,11 @@
 import React from 'react'
-import Navbar from './views/Navbar/navbar'
+import Navbar from './components/navbar/navbar'
 
-function ErrorPage() {
+export const ErrorPage = () => {
   return (
     <div>
       <Navbar />
-
-      ErrorPage</div>
+      ErrorPage
+    </div>
   )
 }
-
-export default ErrorPage
