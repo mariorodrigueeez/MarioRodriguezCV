@@ -8,6 +8,7 @@ import {
 import Root from './routes/root';
 
 import './index.css';
+import './hover.css'
 import { Home } from './views/home/Home'
 import { Experience } from './views/experience/Experience'
 import { Contact } from './views/contact/Contact'

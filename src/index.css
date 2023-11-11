@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /*
 .color1 { #997f65 };
 .color2 { #cabcaf };
@@ -26,13 +27,3 @@ Marron pastel: #ab9680
   background-color: #4f4234;
 }
 
-.botonS1 {
-  background-color: #4f4234;
-  color: white;
-}
-
-.botonS1:hover {
-  transition: 0.1s;
-  transform: scale(1.1);
-  background-color: #40352a;
-}
