@@ -7,7 +7,7 @@ export default function Root() {
   return (
     <div className=''>
       <Navbar />
-      <div id="detail" className='h-screen bg-slate-200'>
+      <div id="detail" className=' bg-slate-200'>
         <Outlet />
       </div>
     </div>
