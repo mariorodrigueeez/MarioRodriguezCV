@@ -5,9 +5,9 @@ import Navbar from '../components/navbar/Navbar'
 
 export default function Root() {
   return (
-    <div className=''>
+    <div>
       <Navbar />
-      <div id="detail" className=' bg-slate-200'>
+      <div id="detail" className='bg-slate-200'>
         <Outlet />
       </div>
     </div>
