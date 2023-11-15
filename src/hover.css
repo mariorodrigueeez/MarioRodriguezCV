@@ -37,12 +37,12 @@
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
-    background: #fff;
+    background: #40352a;
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    color: white;
+    color: #4b3b38;
   
   }
   .hvr-radial-in:before {
@@ -53,7 +53,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #40352a;
+    background: #fff;
     border-radius: 100%;
     -webkit-transform: scale(2);
     transform: scale(2);
@@ -65,7 +65,7 @@
     transition-timing-function: ease-out;
   }
   .hvr-radial-in:hover, .hvr-radial-in:focus, .hvr-radial-in:active {
-    color: #40352a;
+    color: #fff;
   }
   .hvr-radial-in:hover:before, .hvr-radial-in:focus:before, .hvr-radial-in:active:before {
     -webkit-transform: scale(0);
