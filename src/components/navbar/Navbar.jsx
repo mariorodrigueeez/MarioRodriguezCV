@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="navbar c_marron_pastel fixed top-0 w-full z-50">
+      <div className="navbar c_marron_pastel fixed top-0 z-50">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden text-white" onClick={() => setDropdownOpen(!isDropdownOpen)}>

@@ -5,9 +5,9 @@ import Navbar from '../components/navbar/Navbar'
 
 export default function Root() {
   return (
-    <div>
+    <div className='min-h-screen bg-red-500'>
       <Navbar />
-      <div id="detail" className='bg-slate-200 text-black'>
+      <div id="detail" className='bg-slate-200 text-black w-11/12 m-auto'>
         <Outlet />
       </div>
     </div>
